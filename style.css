@@ -1,0 +1,167 @@
+
+body {
+    background-color: rgb(195, 216, 186);
+}
+
+.topbar {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(101, 180, 65);
+    align-items: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.topbar a {
+    color: white;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.website-name {
+    margin: 10px;
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: nowrap;
+}
+
+.links {
+    margin-right: 10px;
+    display: flex;
+
+}
+
+.topbar a:hover {
+    background-color: rgb(53, 155, 5);
+}
+
+.topbar a.current {
+    background-color: rgb(53, 155, 5);
+}
+
+.image-container {
+    display: flex;
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+#main-game-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#login-header {
+    color: rgb(53, 80, 40);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login-error-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#login-error-message {
+    opacity: 0;
+    border: 2px solid;
+    padding: 5px;
+    background-color: rgb(192, 77, 77);
+}
+
+#login-container {
+    display: grid;
+    width: 70%;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px rgb(53, 155, 5);
+}
+
+#login-form {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.login-form-field,
+ .login-form-button{
+    padding: 8px;
+    margin: 10px;
+}
+
+#login-submit {
+    cursor: pointer;
+}
+
+.profile-container {
+    display: flex;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #DFFFD9;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.img-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-pic {
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.profile-item {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    background-color: #90be6d;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #37371f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.stat-container {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+}
+
+.profile-pic-container {
+    background-color: transparent;
+}
+
+
+.username-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+}
+
+.username {
+    font-size: larger;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./login-page.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="website-name">Healthy Nutrition Game</div>
+        <div class="links">
+            <a href="./index.html">Home</a>
+            <a href="./lexikon-page.html">Lexikon</a>
+            <a class="current" href="./login-page.html">Login</a>
+            <a href="./highscore-page.html">Highscores</a>
+            <a href="./profile-page.html">Profil</a>
+        </div>
+    </div>
+
+    <div id="login-container">
+        
+        <h1 id="login-header">Login</h1>
+
+        <div id="login-error-container">
+            <p id="login-error-message">Invalid username and/or password</p>
+        </div>
+
+        <form id="login-form">
+            <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Enter username">
+            <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Enter password">
+            <input type="submit" value="Login" id="login-submit" class="login-form-button">
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>
